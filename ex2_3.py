@@ -2,9 +2,8 @@
    # 2. pitaj korisnika za cijenu sata i spremi u varijablu
    # 3. izračunaj bruto plaću i ispiši je
 
-hours = float(input("Koliko radnih sati: "))
-rate = float(input("Koja je cijena sata: "))
+hours = float(input("Enter Hours: "))
+rate = float(input("Enter Rate:"))
 pay = hours * rate
 
-print(pay)
-
+print("Pay:",pay)
