@@ -1,9 +1,10 @@
-   # 1. pitaj korisnika za sate rada i spremi u varijablu
-   # 2. pitaj korisnika za cijenu sata i spremi u varijablu
-   # 3. izračunaj bruto plaću i ispiši je
-
+# 1. ask the user for the number of working hours and store it in a variable
 hours = float(input("Enter Hours: "))
-rate = float(input("Enter Rate:"))
+
+# 2. ask the user for the hourly rate and store it in a variable
+rate = float(input("Enter Rate: "))
+
+# 3. calculate the gross salary and print it
 pay = hours * rate
 
 print("Pay:",pay)
