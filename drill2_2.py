@@ -1,5 +1,7 @@
-enter_net_amaunt = float(input('Enter amaunt: '))
+enter_net_amaunt = float(input('Enter net amaunt: '))
 vat_rate = 9.0
-total = enter_net_amaunt + (enter_net_amaunt * 0.09)
+vat = enter_net_amaunt * (vat_rate / 100)
+total = enter_net_amaunt + vat
 
-print('Total amaunt: ', total)
+print('VAT: ', vat)
+print('Total: ', total)
