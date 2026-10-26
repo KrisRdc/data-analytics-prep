@@ -9,11 +9,17 @@ def food_cost_rating(percent):
     else:
         return 'bad'
 
-print(food_cost_percent(28, 100))
-print(food_cost_rating(food_cost_percent(28, 100)))
-print(food_cost_percent(30, 100))
-print(food_cost_rating(food_cost_percent(30, 100)))
-print(food_cost_percent(35, 100))
-print(food_cost_rating(food_cost_percent(35, 100)))
-print(food_cost_percent(40, 100))
-print(food_cost_rating(food_cost_percent(40, 100)))
+try:
+    food_cost = float(input('Enter food cost: '))
+    food_revenue = float(input('Enter food revenue: '))
+
+
+except:
+    print('Error, please enter numeric input')
+    quit()
+    
+if food_revenue <= 0:
+    print('Error, revenue must be greater than 0')
+    quit()
+
+print(food_cost, food_revenue)
