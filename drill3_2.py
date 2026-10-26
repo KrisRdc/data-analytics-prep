@@ -1,4 +1,4 @@
-bill = int(input('Enter bill amount: '))
+bill = float(input('Enter bill amount: '))
 
 if bill < 20:
     tip = bill * 0.05
@@ -8,8 +8,9 @@ elif bill <= 50:
 
 else:
     tip = bill * 0.15
-
-round(total) = bill + tip
+    
+tip = round(tip, 2)
+total = bill + tip
 
 print('Tip:', tip)
 print('Total:', total)
