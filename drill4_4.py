@@ -1,3 +1,4 @@
+def food_cost_percent(cost, revenue):
     return round(cost / revenue * 100, 2)
 
 def food_cost_rating(percent):
