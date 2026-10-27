@@ -2,15 +2,15 @@
 # Loop through the list of revenue values to update maximum and minimum
 # Print the best day, worst day, and the difference between them
 
-revenues = [300, 300, 300]
+revenues = [1250, 980, 1430, 870, 1100]
 best_day = None
 worst_day = None
 
 for amount in revenues:
-  if best_day is None or amount > best_day:
-    best_day = amount
-  if worst_day is None or amount < worst_day:
-    worst_day = amount
+    if best_day is None or amount > best_day:
+        best_day = amount
+    if worst_day is None or amount < worst_day:
+        worst_day = amount
 
 difference = best_day - worst_day
 
