@@ -1,3 +1,7 @@
+# Read and clean the input string for formatting
+# Find the semicolon position and handle missing separators
+# Slice the string to extract and print the dish name and price
+
 dish_line = input()
 dish_line = dish_line.strip()
 
