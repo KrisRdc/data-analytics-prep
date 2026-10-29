@@ -1,0 +1,7 @@
+Monday;1250.50
+Tuesday;980.00
+Wednesday;1420.25
+Thursday;1100.00
+Friday;2150.75
+Saturday;2890.00
+Sunday;1850.30
