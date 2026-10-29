@@ -17,9 +17,11 @@ try:
 except:
     print('Error, please enter numeric input')
     quit()
-    
+
 if food_revenue <= 0:
     print('Error, revenue must be greater than 0')
     quit()
 
-print(food_cost, food_revenue)
+percent = food_cost_percent(food_cost, food_revenue)
+print('Food cost:', percent)
+print(food_cost_rating(percent))
